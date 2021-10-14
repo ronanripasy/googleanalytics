@@ -71,14 +71,14 @@
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="sobre.html">Sobre <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre.html">Sobre</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contato.html">Contato</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="destinations.html">Destinations</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="destinations.html">Destinations <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
@@ -87,32 +87,20 @@
     <!-- Begin page content -->
     <main class="container">
         <div class="container">
-            <h1 class="mt-5">Sobre</h1>
-            <p class="lead">Morbi lorem dolor, molestie id malesuada id, semper et libero. Proin vitae ornare orci. Etiam a maximus
-            augue. Suspendisse vulputate pretium lectus, a rutrum turpis porta nec. Mauris sit amet lorem sit amet metus
-            euismod fermentum quis in tellus. Pellentesque placerat, tortor nec pharetra cursus, lorem sem auctor urna,
-            in luctus ipsum turpis id massa. Ut porta nisl eget lobortis lobortis. Aliquam enim elit, condimentum non ex
-            in, condimentum rutrum mi. Suspendisse luctus, enim in consequat porttitor, enim arcu suscipit libero, ac
-            bibendum tortor massa in ante. Maecenas et aliquet tortor. Curabitur pulvinar mattis mi, a dapibus orci
-            vehicula eget.</p>
-
-            <p class="lead">Nam odio risus, condimentum ut tellus nec, pretium tristique tellus. Nunc vulputate purus non faucibus
-            pharetra. Proin varius eros luctus lorem ultrices, id efficitur risus mollis. Donec non risus at justo
-            vulputate egestas. Maecenas sit amet risus tincidunt, sagittis lacus ut, pellentesque velit. Donec ac cursus
-            mi. Vivamus turpis sapien, mollis luctus magna ut, tincidunt blandit nulla. Maecenas ut lobortis quam.
-            Pellentesque auctor posuere ultricies. Morbi ultrices, leo ac vestibulum tempor, dui sem tincidunt magna,
-            pellentesque fermentum massa mi at neque. Nam sed semper nulla. Nullam lorem nisi, commodo at porttitor
-            lacinia, tincidunt non velit. Nulla facilisi. Etiam ullamcorper metus nec nunc imperdiet volutpat. Sed
-            sodales varius mi. Fusce porttitor volutpat aliquam.</p>
-
-            <p class="lead">Vestibulum ante augue, fermentum et elementum eget, luctus in ligula. Sed mattis mollis sem, ut tristique
-            felis vehicula ac. Etiam vitae velit auctor, pellentesque eros congue, maximus dui. Integer vel porttitor
-            nisl, eget posuere eros. Praesent sit amet ultrices massa. Nunc ante leo, mollis quis est sit amet, dictum
-            commodo elit. Curabitur semper egestas convallis. Proin porta sagittis sapien ut posuere. Maecenas
-            condimentum pellentesque malesuada. Donec felis leo, consectetur nec dolor sit amet, laoreet rutrum ex.</p>
-            <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and
-                CSS.</p>
-
+            <h1 class="mt-5">Destinations</h1>
+            
+            <div class="text-center mb-3 container-img">
+                <img src="https://placeimg.com/1080/350/arch" class="img-fluid">
+                <button class="btn btn-primary btn-block" onclick="dataLayer.push({'tripCategory': 'skiing', 'tripLocation': 'Switzerland'})">Button 1</button>
+            </div>
+            <div class="text-center mb-3 container-img">
+                <img src="https://picsum.photos/1080/350" class="img-fluid">
+                <button class="btn btn-primary btn-block" onclick="dataLayer.push({'tripCategory': 'scuba-snorkeling', 'tripLocation': 'Puerto Rico'})">Button 2</button>
+            </div>
+            <div class="text-center container-img">
+                <img src="https://placeimg.com/1080/350/nature" class="img-fluid">
+                <button class="btn btn-primary btn-block" onclick="dataLayer.push({'tripCategory': 'swimming', 'tripLocation': 'Providence'})">Button 3</button>
+            </div>
         </div>
     </main>
 
