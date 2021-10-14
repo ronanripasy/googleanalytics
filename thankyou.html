@@ -7,7 +7,7 @@
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
         var tripPrice = urlParams.get('price');
-        dataLayer = [{'tripValue': tripPrice}]; 
+        dataLayer = [{'tripValue': Number(tripPrice)}]; 
     </script>
 
     <!-- Google Tag Manager -->
